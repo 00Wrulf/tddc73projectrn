@@ -38,11 +38,11 @@ const App = () => {
 
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <TouchableOpacity onPress={() => setShowCart(true)} style={{ position: 'absolute', top: 35, right: 10, borderWidth: 1, borderColor: 'black', height: 30, width: 40}}>
+      <TouchableOpacity onPress={() => setShowCart(true)} style={{ position: 'absolute', top: 80, right: 10, borderWidth: 1, borderColor: 'black', height: 30, width: 40}}>
         <Text style={{ textAlign: 'center', fontSize: 12, fontWeight: 'bold', color: 'black' }}>V A G</Text>
         <Text style={{ textAlign: 'center', fontSize: 12, fontWeight: 'bold', color: 'black' }}>N E N</Text>
       </TouchableOpacity>
-      <Text style={{ fontSize: 50, fontWeight: 'bold', top: 20 }}>B E E R</Text>
+      <Text style={{ fontSize: 70, fontWeight: 'bold', top: 50 }}>B E E R</Text>
       <Carousel addToCart={addToCart} />
       {showCart && (
         <Cart

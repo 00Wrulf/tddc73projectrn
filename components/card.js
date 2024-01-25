@@ -24,8 +24,8 @@ const Card = ({ prop, addToCart }) => {
   };
 
   return (
-    <View style={{ margin: 10, alignItems: 'center', borderWidth: 1, borderRadius: 1, borderColor: 'black', padding: 10, top: 30, height: 500}}>
-      <Image source={ prop.image } style={{ height: 320, width: 210, resizeMode: 'contain', borderRadius: 4}} />
+    <View style={{ margin: 10, alignItems: 'center', borderWidth: 1, borderRadius: 1, borderColor: 'black', padding: 10, top: 50, height: 600}}>
+      <Image source={ prop.image } style={{ height: 420, width: 210, resizeMode: 'contain', borderRadius: 4}} />
       <View style={{ marginTop: 10, alignItems: 'center', top: 10 }}>
         <Text style={{ fontSize: 15, fontWeight: 'bold', textAlign: 'center' }}>{prop.name}</Text>
         <Text style={{ fontSize: 14, marginTop: 5 }}>Av: {prop.by}</Text>

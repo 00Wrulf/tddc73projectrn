@@ -41,7 +41,7 @@ const Carousel = ({items, addToCart}) => {
   };
 
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 1, top: 30}}>
       <ScrollView
         ref={scrollViewRef}
         horizontal

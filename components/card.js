@@ -33,10 +33,10 @@ const Card = ({ prop, addToCart }) => {
       </View>
       <View style={{ flexDirection: 'row', marginTop: 10, position: 'absolute', bottom: 20}}>
         <TouchableOpacity onPress={handleReadMore} style={{ marginRight: 10 }}>
-          <Text style={{ fontSize: 14, fontWeight: 'bold', color: 'black', borderWidth: 1, borderColor: 'black', width: 70, textAlign: 'center'}}>Read More</Text>
+          <Text style={{ fontSize: 14, fontWeight: 'bold', color: 'black', borderWidth: 1, borderColor: 'black', width: 70, textAlign: 'center'}}>Läs mer!</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={handleAddToCart}>
-          <Text style={{ fontSize: 14, fontWeight: 'bold', color: 'black', borderWidth: 1, borderColor: 'black', width: 70, textAlign: 'center'}}>Add to Cart</Text>
+          <Text style={{ fontSize: 14, fontWeight: 'bold', color: 'black', borderWidth: 1, borderColor: 'black', width: 70, textAlign: 'center'}}>Lägg i Vagnen!</Text>
         </TouchableOpacity>
       </View>
 

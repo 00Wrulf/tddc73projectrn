@@ -28,7 +28,7 @@ const Modal = ({ selectedProp, onClose, addToCart }) => {
           <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 30, marginBottom: 10 }}>
             <Text style={{ fontSize: 24, fontWeight: 'bold', marginTop: 10 }}>{selectedProp.price} kr</Text>
             <TouchableOpacity onPress={handleAddToCart} style={{ position: 'absolute', right: 7, width: '36%' ,padding: 7, borderRadius: 1, borderWidth: 1, borderColor: 'black', marginTop: 20}}>
-              <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>Lägg i Vagnen</Text>
+              <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>Lägg i Vagnen!</Text>
             </TouchableOpacity>
           </View>
         </View>
